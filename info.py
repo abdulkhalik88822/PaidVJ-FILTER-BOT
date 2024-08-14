@@ -71,10 +71,10 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://kailash:pa
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'bots_up') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/botz1223')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/botz1223')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/botz1223')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'botz1223') # Support Chat Link Without https:// or @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/backup899')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/backup899')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/backup899')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'backup899') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -103,7 +103,7 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/moviedeta')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/backup899')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
