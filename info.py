@@ -73,7 +73,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'bots_up') # Public Cha
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/backup899')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/backup899')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/backup899')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtodownload088')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'backup899') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -103,7 +103,7 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '')
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/backup899')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/howtodownload088')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
