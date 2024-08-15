@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6334780293:AAHnLFE3uEIaR8ej-nflSUcWPAkq8Ic
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/bbea51e9d8265e7f65ab4.jpg https://telegra.ph/file/382ee23321636758013e5.jpg https://telegra.ph/file/159649eafda67c9a0f48c.jpg https://telegra.ph/file/b5b8eefc642caf821aa23.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/cbf2bb68b4cc9167fae2f.jpg https://telegra.ph/file/937fa868289b65e268b6f.jpg https://telegra.ph/file/0f5458a2d1fc62aa807be.jpg https://telegra.ph/file/5d32303d074c709406576.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
