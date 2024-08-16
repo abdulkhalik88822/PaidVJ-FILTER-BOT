@@ -54,8 +54,6 @@ async def start(client, message):
                 InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
             ],[
-                InlineKeyboardButton('💳 Gᴇᴛ Fʀᴇᴇ Oʀ Pᴀɪᴅ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💳', callback_data='subscription')
-            ],[
                 InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
             ]]
         else:
@@ -279,7 +277,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/KingVJ01")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/Sayandip_Mahata")
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -291,7 +289,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/Ayushnegi23")
+                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/Sayandip_Mahata")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -1438,7 +1436,7 @@ async def fsub(client, message):
     await message.reply_text(f"<b>Successfully set force channels for {title} to\n\n{channels}\n\nYou can remove it by /nofsub.</b>")
         
 
-@Client.on_message(filters.command("add_premium"))
+@Client.on_message(filters.command("aadd_premium"))
 async def give_premium_cmd_handler(client, message):
     if PREMIUM_AND_REFERAL_MODE == False:
         return 
@@ -1464,7 +1462,7 @@ async def give_premium_cmd_handler(client, message):
     else:
         await message.reply_text("<b>Usage: /add_premium user_id time \n\nExample /add_premium 1252789 10day \n\n(e.g. for time units '1day for days', '1hour for hours', or '1min for minutes', or '1month for months' or '1year for year')</b>")
         
-@Client.on_message(filters.command("remove_premium"))
+@Client.on_message(filters.command("aremove_premium"))
 async def remove_premium_cmd_handler(client, message):
     if PREMIUM_AND_REFERAL_MODE == False:
         return 
@@ -1491,7 +1489,7 @@ async def remove_premium_cmd_handler(client, message):
     else:
         await message.reply_text("Usage: /remove_premium user_id")
         
-@Client.on_message(filters.command("plan"))
+@Client.on_message(filters.command("aplan"))
 async def plans_cmd_handler(client, message): 
     if PREMIUM_AND_REFERAL_MODE == False:
         return 
@@ -1506,7 +1504,7 @@ async def plans_cmd_handler(client, message):
         reply_markup=reply_markup
     )
         
-@Client.on_message(filters.command("myplan"))
+@Client.on_message(filters.command("amyplan"))
 async def check_plans_cmd(client, message):
     if PREMIUM_AND_REFERAL_MODE == False:
         return 
