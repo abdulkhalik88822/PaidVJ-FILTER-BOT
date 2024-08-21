@@ -74,7 +74,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'bots_up') # Public Cha
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+U2sFQes7Vb8wYjk1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/backup899')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtodownload088')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'backup899') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movie_Group_Support_bot') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
